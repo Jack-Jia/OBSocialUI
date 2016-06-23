@@ -15,6 +15,9 @@
 		BEE126311D1BB28E000DA76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE1262F1D1BB28E000DA76B /* LaunchScreen.storyboard */; };
 		BEE1263C1D1BB28E000DA76B /* OBSocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1263B1D1BB28E000DA76B /* OBSocialUITests.m */; };
 		BEE126471D1BB28E000DA76B /* OBSocialUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126461D1BB28E000DA76B /* OBSocialUIUITests.m */; };
+		BEE3FBFF1D1C216000C85A7A /* UIColor+OBCustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3FBFE1D1C216000C85A7A /* UIColor+OBCustomColor.m */; };
+		BEE3FC091D1C22D500C85A7A /* OBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3FC071D1C22D500C85A7A /* OBBaseViewController.m */; };
+		BEE3FC0C1D1C245D00C85A7A /* OBSocialHomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE3FC0B1D1C245D00C85A7A /* OBSocialHomePageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +45,21 @@
 		BEE126271D1BB28E000DA76B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BEE126281D1BB28E000DA76B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEE1262B1D1BB28E000DA76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEE1262D1D1BB28E000DA76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE1262D1D1BB28E000DA76B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		BEE126301D1BB28E000DA76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BEE126321D1BB28E000DA76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE126321D1BB28E000DA76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		BEE126371D1BB28E000DA76B /* OBSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE1263B1D1BB28E000DA76B /* OBSocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBSocialUITests.m; sourceTree = "<group>"; };
 		BEE1263D1D1BB28E000DA76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE126421D1BB28E000DA76B /* OBSocialUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OBSocialUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE126461D1BB28E000DA76B /* OBSocialUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBSocialUIUITests.m; sourceTree = "<group>"; };
 		BEE126481D1BB28E000DA76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE3FBFD1D1C216000C85A7A /* UIColor+OBCustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+OBCustomColor.h"; sourceTree = "<group>"; };
+		BEE3FBFE1D1C216000C85A7A /* UIColor+OBCustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+OBCustomColor.m"; sourceTree = "<group>"; };
+		BEE3FC061D1C22D500C85A7A /* OBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBBaseViewController.h; sourceTree = "<group>"; };
+		BEE3FC071D1C22D500C85A7A /* OBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBBaseViewController.m; sourceTree = "<group>"; };
+		BEE3FC0A1D1C245D00C85A7A /* OBSocialHomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialHomePageController.h; sourceTree = "<group>"; };
+		BEE3FC0B1D1C245D00C85A7A /* OBSocialHomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialHomePageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +110,17 @@
 		BEE126201D1BB28E000DA76B /* OBSocialUI */ = {
 			isa = PBXGroup;
 			children = (
+				BEE3FC051D1C22D500C85A7A /* BaseController(父类控制器) */,
+				BEE3FC081D1C22D500C85A7A /* SubControllers(子控制器) */,
+				BEE3FBF11D1C1BEF00C85A7A /* Model */,
+				BEE3FBF21D1C1BEF00C85A7A /* View */,
+				BEE3FBF31D1C1BEF00C85A7A /* ViewController */,
 				BEE126241D1BB28E000DA76B /* AppDelegate.h */,
 				BEE126251D1BB28E000DA76B /* AppDelegate.m */,
 				BEE126271D1BB28E000DA76B /* ViewController.h */,
 				BEE126281D1BB28E000DA76B /* ViewController.m */,
-				BEE1262A1D1BB28E000DA76B /* Main.storyboard */,
-				BEE1262D1D1BB28E000DA76B /* Assets.xcassets */,
-				BEE1262F1D1BB28E000DA76B /* LaunchScreen.storyboard */,
-				BEE126321D1BB28E000DA76B /* Info.plist */,
+				BEE3FBF51D1C1FD800C85A7A /* Others */,
+				BEE3FBF41D1C1CFA00C85A7A /* OBResource(资源) */,
 				BEE126211D1BB28E000DA76B /* Supporting Files */,
 			);
 			path = OBSocialUI;
@@ -117,6 +129,8 @@
 		BEE126211D1BB28E000DA76B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEE1262A1D1BB28E000DA76B /* Main.storyboard */,
+				BEE1262F1D1BB28E000DA76B /* LaunchScreen.storyboard */,
 				BEE126221D1BB28E000DA76B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +152,137 @@
 				BEE126481D1BB28E000DA76B /* Info.plist */,
 			);
 			path = OBSocialUIUITests;
+			sourceTree = "<group>";
+		};
+		BEE3FBF11D1C1BEF00C85A7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEE3FBF21D1C1BEF00C85A7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEE3FBF31D1C1BEF00C85A7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3FC0A1D1C245D00C85A7A /* OBSocialHomePageController.h */,
+				BEE3FC0B1D1C245D00C85A7A /* OBSocialHomePageController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BEE3FBF41D1C1CFA00C85A7A /* OBResource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				BEE1262D1D1BB28E000DA76B /* Assets.xcassets */,
+				BEE126321D1BB28E000DA76B /* Info.plist */,
+			);
+			name = "OBResource(资源)";
+			path = OBResource;
+			sourceTree = "<group>";
+		};
+		BEE3FBF51D1C1FD800C85A7A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3FBF81D1C1FD800C85A7A /* OBTools(工具类) */,
+				BEE3FBF91D1C1FD800C85A7A /* ThirdLibs(第三方库) */,
+				BEE3FBF61D1C1FD800C85A7A /* Category(分类) */,
+				BEE3FBF71D1C1FD800C85A7A /* Framework */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BEE3FBF61D1C1FD800C85A7A /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3FBFD1D1C216000C85A7A /* UIColor+OBCustomColor.h */,
+				BEE3FBFE1D1C216000C85A7A /* UIColor+OBCustomColor.m */,
+			);
+			name = "Category(分类)";
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BEE3FBF71D1C1FD800C85A7A /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		BEE3FBF81D1C1FD800C85A7A /* OBTools(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "OBTools(工具类)";
+			path = OBTools;
+			sourceTree = "<group>";
+		};
+		BEE3FBF91D1C1FD800C85A7A /* ThirdLibs(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ThirdLibs(第三方库)";
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		BEE3FC051D1C22D500C85A7A /* BaseController(父类控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3FC061D1C22D500C85A7A /* OBBaseViewController.h */,
+				BEE3FC071D1C22D500C85A7A /* OBBaseViewController.m */,
+			);
+			name = "BaseController(父类控制器)";
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		BEE3FC081D1C22D500C85A7A /* SubControllers(子控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3FC0D1D1C33C000C85A7A /* NewNotice(新消息提醒) */,
+				BEE3FC0E1D1C33C000C85A7A /* PersonalPage(好友个人主页) */,
+				BEE3FC0F1D1C33C000C85A7A /* SocialDetail(动态详情) */,
+				BEE3FC101D1C33C000C85A7A /* SocialPost(动态发送) */,
+			);
+			name = "SubControllers(子控制器)";
+			path = SubControllers;
+			sourceTree = "<group>";
+		};
+		BEE3FC0D1D1C33C000C85A7A /* NewNotice(新消息提醒) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "NewNotice(新消息提醒)";
+			path = NewNotice;
+			sourceTree = "<group>";
+		};
+		BEE3FC0E1D1C33C000C85A7A /* PersonalPage(好友个人主页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "PersonalPage(好友个人主页)";
+			path = PersonalPage;
+			sourceTree = "<group>";
+		};
+		BEE3FC0F1D1C33C000C85A7A /* SocialDetail(动态详情) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SocialDetail(动态详情)";
+			path = SocialDetail;
+			sourceTree = "<group>";
+		};
+		BEE3FC101D1C33C000C85A7A /* SocialPost(动态发送) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "SocialPost(动态发送)";
+			path = SocialPost;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +417,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE126291D1BB28E000DA76B /* ViewController.m in Sources */,
+				BEE3FC0C1D1C245D00C85A7A /* OBSocialHomePageController.m in Sources */,
 				BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */,
+				BEE3FBFF1D1C216000C85A7A /* UIColor+OBCustomColor.m in Sources */,
+				BEE3FC091D1C22D500C85A7A /* OBBaseViewController.m in Sources */,
 				BEE126231D1BB28E000DA76B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = OBSocialUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oneBug.OBSocialUI;
@@ -427,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				INFOPLIST_FILE = OBSocialUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = oneBug.OBSocialUI;
