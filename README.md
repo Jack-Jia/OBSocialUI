@@ -1,4 +1,4 @@
-# SocialUI
+# OBSocialUI
 
 ## 目的
 
