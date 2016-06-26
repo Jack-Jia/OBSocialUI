@@ -42,6 +42,37 @@
     return self.dataModelList.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    OBSocialModel *model = self.dataModelList[indexPath.row];
+    
+    CGFloat cellHeight;
+    
+    // TODO:需要详细计算
+    
+    switch (model.type) {
+        case OBSocialCellType_Text: {
+            cellHeight = 150;
+        }
+            break;
+        case OBSocialCellType_Photo: {
+            cellHeight = 200;
+        }
+            break;
+        case OBSocialCellType_Link: {
+            cellHeight = 140;
+        }
+            break;
+        case OBSocialCellType_Video: {
+            cellHeight = 190;
+        }
+            break;
+    }
+    
+    return cellHeight;
+    
+}
+
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -64,9 +95,6 @@
     
     ///抵消导航栏的高度,让tableView显示完整
     self.baseTableView.height -= kNavigationBarHeight;
-    
-    // TODO: 暂时设定行高,需修改
-    self.baseTableView.rowHeight = 150;
     
     /// 设置标题
     self.title = @"朋友圈";
