@@ -111,10 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				BEE3FC051D1C22D500C85A7A /* BaseController(父类控制器) */,
-				BEE3FC081D1C22D500C85A7A /* SubControllers(子控制器) */,
 				BEE3FBF11D1C1BEF00C85A7A /* Model */,
 				BEE3FBF21D1C1BEF00C85A7A /* View */,
 				BEE3FBF31D1C1BEF00C85A7A /* ViewController */,
+				BEE3FC081D1C22D500C85A7A /* SubControllers(子控制器) */,
 				BEE126241D1BB28E000DA76B /* AppDelegate.h */,
 				BEE126251D1BB28E000DA76B /* AppDelegate.m */,
 				BEE126271D1BB28E000DA76B /* ViewController.h */,
