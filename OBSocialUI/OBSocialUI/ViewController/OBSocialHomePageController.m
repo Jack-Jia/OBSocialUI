@@ -9,6 +9,7 @@
 #import "OBSocialHomePageController.h"
 #import "OBSocialModel.h"
 #import "OBSocialBaseCell.h"
+#import "OBSocialHeaderView.h"
 
 @interface OBSocialHomePageController ()
 
@@ -48,6 +49,10 @@
     [self ob_initNavigationGoBackButtonImage:[UIImage imageNamed:@"Nav_back"] WithTitle:nil];
     /// 初始化更多按钮
     [self ob_initNavigationRightButtonImage:[UIImage imageNamed:@"more_button"]];
+    
+    ///给tableView添加headerView
+    OBSocialHeaderView *headerView = [[NSBundle mainBundle] loadNibNamed:@"OBSocialHeaderView" owner:nil options:nil].firstObject;
+    self.baseTableView.tableHeaderView = headerView;
     
     /// 添加tableView
     [self.view addSubview:self.baseTableView];
