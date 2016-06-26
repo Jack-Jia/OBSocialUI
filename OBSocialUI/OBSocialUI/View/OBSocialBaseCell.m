@@ -18,6 +18,7 @@
 
 @implementation OBSocialBaseCell
 
+#pragma mark - Public Methods
 /**
  *  根据类型选择初始化的cell
  *
@@ -53,12 +54,15 @@
             break;
     }
     
+    [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    
     return cell;
     
 }
 
+#pragma mark - Overide Methods
 /**
- *  子类重写
+ *  初始化cell(子类重写)
  *
  *  @param tableView 所属tableView
  *
@@ -69,7 +73,7 @@
 }
 
 /**
- *  子类重写
+ *  设置数据(子类重写)
  *
  *  @param model 数据模型
  */

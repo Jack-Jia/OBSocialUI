@@ -14,4 +14,6 @@
 /// 导航条分类
 #import "UIViewController+OBNavigation.h"
 
+#import "UIView+OBFrameFast.h"
+
 #endif /* OBDefine_h */

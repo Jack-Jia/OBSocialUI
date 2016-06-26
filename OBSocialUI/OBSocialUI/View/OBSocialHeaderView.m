@@ -15,7 +15,7 @@
 @implementation OBSocialHeaderView
 
 -(void)awakeFromNib {
-    
+    [super awakeFromNib];
 }
 
 @end

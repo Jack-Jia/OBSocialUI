@@ -11,24 +11,29 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jDG-17-GmE">
-                    <rect key="frame" x="0.0" y="0.0" width="401" height="110"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Social_backGround" translatesAutoresizingMaskIntoConstraints="NO" id="jDG-17-GmE">
+                    <rect key="frame" x="0.0" y="-144" width="375" height="254"/>
                     <color key="backgroundColor" red="1" green="0.24503414598322881" blue="0.78510908196396456" alpha="1" colorSpace="calibratedRGB"/>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EPN-ME-iCS">
-                    <rect key="frame" x="306" y="76" width="61" height="60"/>
-                    <color key="backgroundColor" red="0.010757211538461542" green="0.002635884142487859" blue="0.0084455844754537084" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="周杰伦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI8-W1-ilb">
                     <rect key="frame" x="245" y="89" width="47" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.96862745100000003" green="0.97254901959999995" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Social_default_small" translatesAutoresizingMaskIntoConstraints="NO" id="EPN-ME-iCS">
+                    <rect key="frame" x="306" y="70" width="60" height="60"/>
+                    <color key="backgroundColor" red="0.01075721154" green="0.0026358841420000001" blue="0.0084455844750000002" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="350.5" y="59"/>
+            <point key="canvasLocation" x="298.5" y="294"/>
         </view>
     </objects>
+    <resources>
+        <image name="Social_backGround" width="1115" height="783"/>
+        <image name="Social_default_small" width="40" height="40"/>
+    </resources>
 </document>
