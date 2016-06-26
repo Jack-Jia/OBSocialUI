@@ -13,5 +13,22 @@
 
 /// 系统版本号
 #define iOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+#define isiOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+#define isiOS7Low ([[UIDevice currentDevice].systemVersion doubleValue] < 7.0)
+#define isiOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+
+/// 屏幕尺寸
+#define kScreenHeight  ([[UIScreen mainScreen] bounds].size.height)
+#define kScreenWidth   ([[UIScreen mainScreen] bounds].size.width)
+#define kScreenScale   ([UIScreen mainScreen].scale)
+
+/// 各种bar的高度
+#define kNavigationBarHeight             64
+#define kStatusBarSize                  ([UIApplication sharedApplication].statusBarFrame.size)
+#define kStatusBarHeight                ((([UIApplication sharedApplication].statusBarFrame.size.height)>20)?40:20))
+#define kTabBarHeight                   49
+
+/// RGB的颜色
+#define OBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
 #endif /* PrefixHeader_pch */

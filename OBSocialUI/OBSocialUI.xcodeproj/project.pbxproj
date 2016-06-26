@@ -20,6 +20,7 @@
 		BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */; };
 		BE3D78A21D1FDC7200C7BA4E /* OBSocialHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78A11D1FDC7200C7BA4E /* OBSocialHeaderView.m */; };
 		BE3D78A41D1FDC8900C7BA4E /* OBSocialHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78A31D1FDC8900C7BA4E /* OBSocialHeaderView.xib */; };
+		BE3D78A71D202F8500C7BA4E /* UIView+OBFrameFast.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78A61D202F8500C7BA4E /* UIView+OBFrameFast.m */; };
 		BEE126231D1BB28E000DA76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126221D1BB28E000DA76B /* main.m */; };
 		BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126251D1BB28E000DA76B /* AppDelegate.m */; };
 		BEE126291D1BB28E000DA76B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126281D1BB28E000DA76B /* ViewController.m */; };
@@ -74,6 +75,8 @@
 		BE3D78A01D1FDC7200C7BA4E /* OBSocialHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialHeaderView.h; sourceTree = "<group>"; };
 		BE3D78A11D1FDC7200C7BA4E /* OBSocialHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialHeaderView.m; sourceTree = "<group>"; };
 		BE3D78A31D1FDC8900C7BA4E /* OBSocialHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialHeaderView.xib; sourceTree = "<group>"; };
+		BE3D78A51D202F8500C7BA4E /* UIView+OBFrameFast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OBFrameFast.h"; sourceTree = "<group>"; };
+		BE3D78A61D202F8500C7BA4E /* UIView+OBFrameFast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OBFrameFast.m"; sourceTree = "<group>"; };
 		BEE1261E1D1BB28E000DA76B /* OBSocialUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBSocialUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE126221D1BB28E000DA76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEE126241D1BB28E000DA76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -266,6 +269,8 @@
 				BEE3FBFE1D1C216000C85A7A /* UIColor+OBCustomColor.m */,
 				BE3D78811D1FAD1000C7BA4E /* UIViewController+OBNavigation.h */,
 				BE3D78821D1FAD1000C7BA4E /* UIViewController+OBNavigation.m */,
+				BE3D78A51D202F8500C7BA4E /* UIView+OBFrameFast.h */,
+				BE3D78A61D202F8500C7BA4E /* UIView+OBFrameFast.m */,
 			);
 			name = "Category(分类)";
 			path = Category;
@@ -490,6 +495,7 @@
 				BE3D78831D1FAD1000C7BA4E /* UIViewController+OBNavigation.m in Sources */,
 				BE3D78981D1FC4C000C7BA4E /* OBSocialVideoCell.m in Sources */,
 				BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */,
+				BE3D78A71D202F8500C7BA4E /* UIView+OBFrameFast.m in Sources */,
 				BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */,
 				BEE3FBFF1D1C216000C85A7A /* UIColor+OBCustomColor.m in Sources */,
 				BE3D78A21D1FDC7200C7BA4E /* OBSocialHeaderView.m in Sources */,

@@ -42,6 +42,11 @@
     return self.dataModelList.count;
 }
 
+#pragma mark - UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
 
 #pragma mark - Private Methods
 - (void)createUI {
@@ -57,10 +62,17 @@
     /// 添加tableView
     [self.view addSubview:self.baseTableView];
     
+    ///抵消导航栏的高度,让tableView显示完整
+    self.baseTableView.height -= kNavigationBarHeight;
+    
+    // TODO: 暂时设定行高,需修改
+    self.baseTableView.rowHeight = 150;
+    
     /// 设置标题
     self.title = @"朋友圈";
 }
 
+/// 初始化数据
 - (void)initData {
     OBSocialModel *model1 = [self createModelWithType:OBSocialCellType_Text text:@"one"];
     OBSocialModel *model2 = [self createModelWithType:OBSocialCellType_Photo text:@"two"];
@@ -69,7 +81,7 @@
     [self.dataModelList addObjectsFromArray:@[model1,model2,model3,model4]];
 }
 
-///临时使用的方法
+// TODO: 临时使用的方法
 - (OBSocialModel *)createModelWithType:(OBSocialCellType)type text:(NSString *)text {
     OBSocialModel *model = [[OBSocialModel alloc] init];
     model.type = type;

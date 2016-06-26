@@ -5,6 +5,9 @@
 //  Created by DarrenW on 16/6/26.
 //  Copyright © 2016年 oneBug. All rights reserved.
 //
+/**
+ *  用来初始化导航条相关
+ */
 
 #import <UIKit/UIKit.h>
 
