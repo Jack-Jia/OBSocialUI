@@ -8,6 +8,11 @@
 
 #import "OBSocialLinkCell.h"
 
+@interface OBSocialLinkCell ()
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
+
+@end
+
 @implementation OBSocialLinkCell
 
 - (void)awakeFromNib {
@@ -29,5 +34,7 @@
 ///填写数据
 - (void)setModel:(OBSocialModel *)model {
     [super setModel:model];
+    self.testLabel.text = model.testText;
+
 }
 @end

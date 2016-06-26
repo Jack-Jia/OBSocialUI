@@ -44,6 +44,7 @@
         _baseTableView = [[UITableView alloc] initWithFrame:self.view.frame style:self.tableViewStyle?:UITableViewStylePlain];
         _baseTableView.delegate = self;
         _baseTableView.dataSource = self;
+        _baseTableView.tableFooterView = [[UIView alloc] init];
     }
     return _baseTableView;
 }
