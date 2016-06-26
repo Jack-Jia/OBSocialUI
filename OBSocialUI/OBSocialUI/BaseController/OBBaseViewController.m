@@ -38,7 +38,15 @@
  */
 - (void)goBackButtonClicked:(UIBarButtonItem *)sender {
     
-    //子类重写
+    if (self.childViewControllers.count > 1 && [self.childViewControllers objectAtIndex:self.childViewControllers.count-2] == self) {
+        
+        [self.navigationController popViewControllerAnimated:YES];
+    
+    } else if ([self.childViewControllers indexOfObject:self] == NSNotFound) {
+    
+        [self dismissViewControllerAnimated:NO completion:nil];
+    
+    }
     
 }
 
