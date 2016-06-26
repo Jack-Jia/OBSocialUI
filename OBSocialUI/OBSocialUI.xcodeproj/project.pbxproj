@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		BE3D78831D1FAD1000C7BA4E /* UIViewController+OBNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78821D1FAD1000C7BA4E /* UIViewController+OBNavigation.m */; };
+		BE3D78891D1FC47E00C7BA4E /* OBSocialTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78871D1FC47E00C7BA4E /* OBSocialTextCell.m */; };
+		BE3D788A1D1FC47E00C7BA4E /* OBSocialTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78881D1FC47E00C7BA4E /* OBSocialTextCell.xib */; };
+		BE3D788E1D1FC49A00C7BA4E /* OBSocialPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D788C1D1FC49A00C7BA4E /* OBSocialPhotoCell.m */; };
+		BE3D788F1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D788D1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib */; };
+		BE3D78931D1FC4B100C7BA4E /* OBSocialLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78911D1FC4B100C7BA4E /* OBSocialLinkCell.m */; };
+		BE3D78941D1FC4B100C7BA4E /* OBSocialLinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78921D1FC4B100C7BA4E /* OBSocialLinkCell.xib */; };
+		BE3D78981D1FC4C000C7BA4E /* OBSocialVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78961D1FC4C000C7BA4E /* OBSocialVideoCell.m */; };
+		BE3D78991D1FC4C000C7BA4E /* OBSocialVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78971D1FC4C000C7BA4E /* OBSocialVideoCell.xib */; };
+		BE3D789C1D1FC4CD00C7BA4E /* OBSocialBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D789B1D1FC4CD00C7BA4E /* OBSocialBaseCell.m */; };
+		BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */; };
 		BEE126231D1BB28E000DA76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126221D1BB28E000DA76B /* main.m */; };
 		BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126251D1BB28E000DA76B /* AppDelegate.m */; };
 		BEE126291D1BB28E000DA76B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126281D1BB28E000DA76B /* ViewController.m */; };
@@ -43,6 +53,22 @@
 		BE3D78821D1FAD1000C7BA4E /* UIViewController+OBNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+OBNavigation.m"; sourceTree = "<group>"; };
 		BE3D78841D1FAD6B00C7BA4E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BE3D78851D1FAD8E00C7BA4E /* OBDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBDefine.h; sourceTree = "<group>"; };
+		BE3D78861D1FC47E00C7BA4E /* OBSocialTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialTextCell.h; sourceTree = "<group>"; };
+		BE3D78871D1FC47E00C7BA4E /* OBSocialTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialTextCell.m; sourceTree = "<group>"; };
+		BE3D78881D1FC47E00C7BA4E /* OBSocialTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialTextCell.xib; sourceTree = "<group>"; };
+		BE3D788B1D1FC49A00C7BA4E /* OBSocialPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialPhotoCell.h; sourceTree = "<group>"; };
+		BE3D788C1D1FC49A00C7BA4E /* OBSocialPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialPhotoCell.m; sourceTree = "<group>"; };
+		BE3D788D1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialPhotoCell.xib; sourceTree = "<group>"; };
+		BE3D78901D1FC4B100C7BA4E /* OBSocialLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialLinkCell.h; sourceTree = "<group>"; };
+		BE3D78911D1FC4B100C7BA4E /* OBSocialLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialLinkCell.m; sourceTree = "<group>"; };
+		BE3D78921D1FC4B100C7BA4E /* OBSocialLinkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialLinkCell.xib; sourceTree = "<group>"; };
+		BE3D78951D1FC4C000C7BA4E /* OBSocialVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialVideoCell.h; sourceTree = "<group>"; };
+		BE3D78961D1FC4C000C7BA4E /* OBSocialVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialVideoCell.m; sourceTree = "<group>"; };
+		BE3D78971D1FC4C000C7BA4E /* OBSocialVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialVideoCell.xib; sourceTree = "<group>"; };
+		BE3D789A1D1FC4CD00C7BA4E /* OBSocialBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialBaseCell.h; sourceTree = "<group>"; };
+		BE3D789B1D1FC4CD00C7BA4E /* OBSocialBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialBaseCell.m; sourceTree = "<group>"; };
+		BE3D789D1D1FCB6900C7BA4E /* OBSocialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialModel.h; sourceTree = "<group>"; };
+		BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialModel.m; sourceTree = "<group>"; };
 		BEE1261E1D1BB28E000DA76B /* OBSocialUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBSocialUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE126221D1BB28E000DA76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEE126241D1BB28E000DA76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +188,8 @@
 		BEE3FBF11D1C1BEF00C85A7A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE3D789D1D1FCB6900C7BA4E /* OBSocialModel.h */,
+				BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +197,20 @@
 		BEE3FBF21D1C1BEF00C85A7A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE3D789A1D1FC4CD00C7BA4E /* OBSocialBaseCell.h */,
+				BE3D789B1D1FC4CD00C7BA4E /* OBSocialBaseCell.m */,
+				BE3D78861D1FC47E00C7BA4E /* OBSocialTextCell.h */,
+				BE3D78871D1FC47E00C7BA4E /* OBSocialTextCell.m */,
+				BE3D78881D1FC47E00C7BA4E /* OBSocialTextCell.xib */,
+				BE3D788B1D1FC49A00C7BA4E /* OBSocialPhotoCell.h */,
+				BE3D788C1D1FC49A00C7BA4E /* OBSocialPhotoCell.m */,
+				BE3D788D1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib */,
+				BE3D78901D1FC4B100C7BA4E /* OBSocialLinkCell.h */,
+				BE3D78911D1FC4B100C7BA4E /* OBSocialLinkCell.m */,
+				BE3D78921D1FC4B100C7BA4E /* OBSocialLinkCell.xib */,
+				BE3D78951D1FC4C000C7BA4E /* OBSocialVideoCell.h */,
+				BE3D78961D1FC4C000C7BA4E /* OBSocialVideoCell.m */,
+				BE3D78971D1FC4C000C7BA4E /* OBSocialVideoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -400,7 +442,11 @@
 			files = (
 				BEE126311D1BB28E000DA76B /* LaunchScreen.storyboard in Resources */,
 				BEE1262E1D1BB28E000DA76B /* Assets.xcassets in Resources */,
+				BE3D788A1D1FC47E00C7BA4E /* OBSocialTextCell.xib in Resources */,
 				BEE1262C1D1BB28E000DA76B /* Main.storyboard in Resources */,
+				BE3D788F1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib in Resources */,
+				BE3D78941D1FC4B100C7BA4E /* OBSocialLinkCell.xib in Resources */,
+				BE3D78991D1FC4C000C7BA4E /* OBSocialVideoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +474,16 @@
 				BEE126291D1BB28E000DA76B /* ViewController.m in Sources */,
 				BEE3FC0C1D1C245D00C85A7A /* OBSocialHomePageController.m in Sources */,
 				BE3D78831D1FAD1000C7BA4E /* UIViewController+OBNavigation.m in Sources */,
+				BE3D78981D1FC4C000C7BA4E /* OBSocialVideoCell.m in Sources */,
 				BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */,
+				BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */,
 				BEE3FBFF1D1C216000C85A7A /* UIColor+OBCustomColor.m in Sources */,
 				BEE3FC091D1C22D500C85A7A /* OBBaseViewController.m in Sources */,
+				BE3D78891D1FC47E00C7BA4E /* OBSocialTextCell.m in Sources */,
+				BE3D789C1D1FC4CD00C7BA4E /* OBSocialBaseCell.m in Sources */,
 				BEE126231D1BB28E000DA76B /* main.m in Sources */,
+				BE3D788E1D1FC49A00C7BA4E /* OBSocialPhotoCell.m in Sources */,
+				BE3D78931D1FC4B100C7BA4E /* OBSocialLinkCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
