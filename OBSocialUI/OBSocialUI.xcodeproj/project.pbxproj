@@ -18,6 +18,8 @@
 		BE3D78991D1FC4C000C7BA4E /* OBSocialVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78971D1FC4C000C7BA4E /* OBSocialVideoCell.xib */; };
 		BE3D789C1D1FC4CD00C7BA4E /* OBSocialBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D789B1D1FC4CD00C7BA4E /* OBSocialBaseCell.m */; };
 		BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */; };
+		BE3D78A21D1FDC7200C7BA4E /* OBSocialHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3D78A11D1FDC7200C7BA4E /* OBSocialHeaderView.m */; };
+		BE3D78A41D1FDC8900C7BA4E /* OBSocialHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE3D78A31D1FDC8900C7BA4E /* OBSocialHeaderView.xib */; };
 		BEE126231D1BB28E000DA76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126221D1BB28E000DA76B /* main.m */; };
 		BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126251D1BB28E000DA76B /* AppDelegate.m */; };
 		BEE126291D1BB28E000DA76B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE126281D1BB28E000DA76B /* ViewController.m */; };
@@ -69,6 +71,9 @@
 		BE3D789B1D1FC4CD00C7BA4E /* OBSocialBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialBaseCell.m; sourceTree = "<group>"; };
 		BE3D789D1D1FCB6900C7BA4E /* OBSocialModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialModel.h; sourceTree = "<group>"; };
 		BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialModel.m; sourceTree = "<group>"; };
+		BE3D78A01D1FDC7200C7BA4E /* OBSocialHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSocialHeaderView.h; sourceTree = "<group>"; };
+		BE3D78A11D1FDC7200C7BA4E /* OBSocialHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSocialHeaderView.m; sourceTree = "<group>"; };
+		BE3D78A31D1FDC8900C7BA4E /* OBSocialHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBSocialHeaderView.xib; sourceTree = "<group>"; };
 		BEE1261E1D1BB28E000DA76B /* OBSocialUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OBSocialUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE126221D1BB28E000DA76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEE126241D1BB28E000DA76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,15 +147,11 @@
 			isa = PBXGroup;
 			children = (
 				BEE3FC051D1C22D500C85A7A /* BaseController(父类控制器) */,
-				BEE3FBF11D1C1BEF00C85A7A /* Model */,
-				BEE3FBF21D1C1BEF00C85A7A /* View */,
-				BEE3FBF31D1C1BEF00C85A7A /* ViewController */,
+				BEE3FBF11D1C1BEF00C85A7A /* Model(朋友圈数据模型) */,
+				BEE3FBF21D1C1BEF00C85A7A /* View(朋友圈cell) */,
+				BEE3FBF31D1C1BEF00C85A7A /* ViewController(朋友圈控制器) */,
 				BEE3FC081D1C22D500C85A7A /* SubControllers(子控制器) */,
-				BEE126241D1BB28E000DA76B /* AppDelegate.h */,
-				BEE126251D1BB28E000DA76B /* AppDelegate.m */,
-				BEE126271D1BB28E000DA76B /* ViewController.h */,
-				BEE126281D1BB28E000DA76B /* ViewController.m */,
-				BEE3FBF51D1C1FD800C85A7A /* Others */,
+				BEE3FBF51D1C1FD800C85A7A /* Others(其他) */,
 				BEE3FBF41D1C1CFA00C85A7A /* OBResource(资源) */,
 				BEE126211D1BB28E000DA76B /* Supporting Files */,
 			);
@@ -163,6 +164,10 @@
 				BEE1262A1D1BB28E000DA76B /* Main.storyboard */,
 				BEE1262F1D1BB28E000DA76B /* LaunchScreen.storyboard */,
 				BEE126221D1BB28E000DA76B /* main.m */,
+				BEE126241D1BB28E000DA76B /* AppDelegate.h */,
+				BEE126251D1BB28E000DA76B /* AppDelegate.m */,
+				BEE126271D1BB28E000DA76B /* ViewController.h */,
+				BEE126281D1BB28E000DA76B /* ViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,16 +190,17 @@
 			path = OBSocialUIUITests;
 			sourceTree = "<group>";
 		};
-		BEE3FBF11D1C1BEF00C85A7A /* Model */ = {
+		BEE3FBF11D1C1BEF00C85A7A /* Model(朋友圈数据模型) */ = {
 			isa = PBXGroup;
 			children = (
 				BE3D789D1D1FCB6900C7BA4E /* OBSocialModel.h */,
 				BE3D789E1D1FCB6900C7BA4E /* OBSocialModel.m */,
 			);
+			name = "Model(朋友圈数据模型)";
 			path = Model;
 			sourceTree = "<group>";
 		};
-		BEE3FBF21D1C1BEF00C85A7A /* View */ = {
+		BEE3FBF21D1C1BEF00C85A7A /* View(朋友圈cell) */ = {
 			isa = PBXGroup;
 			children = (
 				BE3D789A1D1FC4CD00C7BA4E /* OBSocialBaseCell.h */,
@@ -211,16 +217,21 @@
 				BE3D78951D1FC4C000C7BA4E /* OBSocialVideoCell.h */,
 				BE3D78961D1FC4C000C7BA4E /* OBSocialVideoCell.m */,
 				BE3D78971D1FC4C000C7BA4E /* OBSocialVideoCell.xib */,
+				BE3D78A01D1FDC7200C7BA4E /* OBSocialHeaderView.h */,
+				BE3D78A11D1FDC7200C7BA4E /* OBSocialHeaderView.m */,
+				BE3D78A31D1FDC8900C7BA4E /* OBSocialHeaderView.xib */,
 			);
+			name = "View(朋友圈cell)";
 			path = View;
 			sourceTree = "<group>";
 		};
-		BEE3FBF31D1C1BEF00C85A7A /* ViewController */ = {
+		BEE3FBF31D1C1BEF00C85A7A /* ViewController(朋友圈控制器) */ = {
 			isa = PBXGroup;
 			children = (
 				BEE3FC0A1D1C245D00C85A7A /* OBSocialHomePageController.h */,
 				BEE3FC0B1D1C245D00C85A7A /* OBSocialHomePageController.m */,
 			);
+			name = "ViewController(朋友圈控制器)";
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -236,14 +247,15 @@
 			path = OBResource;
 			sourceTree = "<group>";
 		};
-		BEE3FBF51D1C1FD800C85A7A /* Others */ = {
+		BEE3FBF51D1C1FD800C85A7A /* Others(其他) */ = {
 			isa = PBXGroup;
 			children = (
 				BEE3FBF81D1C1FD800C85A7A /* OBTools(工具类) */,
 				BEE3FBF91D1C1FD800C85A7A /* ThirdLibs(第三方库) */,
 				BEE3FBF61D1C1FD800C85A7A /* Category(分类) */,
-				BEE3FBF71D1C1FD800C85A7A /* Framework */,
+				BEE3FBF71D1C1FD800C85A7A /* Framework(框架) */,
 			);
+			name = "Others(其他)";
 			path = Others;
 			sourceTree = "<group>";
 		};
@@ -259,10 +271,11 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		BEE3FBF71D1C1FD800C85A7A /* Framework */ = {
+		BEE3FBF71D1C1FD800C85A7A /* Framework(框架) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Framework(框架)";
 			path = Framework;
 			sourceTree = "<group>";
 		};
@@ -447,6 +460,7 @@
 				BE3D788F1D1FC49A00C7BA4E /* OBSocialPhotoCell.xib in Resources */,
 				BE3D78941D1FC4B100C7BA4E /* OBSocialLinkCell.xib in Resources */,
 				BE3D78991D1FC4C000C7BA4E /* OBSocialVideoCell.xib in Resources */,
+				BE3D78A41D1FDC8900C7BA4E /* OBSocialHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,7 @@
 				BEE126261D1BB28E000DA76B /* AppDelegate.m in Sources */,
 				BE3D789F1D1FCB6900C7BA4E /* OBSocialModel.m in Sources */,
 				BEE3FBFF1D1C216000C85A7A /* UIColor+OBCustomColor.m in Sources */,
+				BE3D78A21D1FDC7200C7BA4E /* OBSocialHeaderView.m in Sources */,
 				BEE3FC091D1C22D500C85A7A /* OBBaseViewController.m in Sources */,
 				BE3D78891D1FC47E00C7BA4E /* OBSocialTextCell.m in Sources */,
 				BE3D789C1D1FC4CD00C7BA4E /* OBSocialBaseCell.m in Sources */,
