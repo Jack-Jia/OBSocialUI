@@ -14,14 +14,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="139.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Social_default_small" translatesAutoresizingMaskIntoConstraints="NO" id="G3O-zP-7xW">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headIcon3" translatesAutoresizingMaskIntoConstraints="NO" id="G3O-zP-7xW">
                         <rect key="frame" x="10" y="10" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="aYH-g7-NjP"/>
                             <constraint firstAttribute="height" constant="30" id="tcd-N6-T3x"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周杰伦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xy-bu-1u7">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="奥巴马" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xy-bu-1u7">
                         <rect key="frame" x="45" y="8" width="39" height="21"/>
                         <constraints>
                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="200" id="3yJ-3z-8E2"/>
@@ -120,7 +120,7 @@
     </objects>
     <resources>
         <image name="Social_comment" width="15" height="13"/>
-        <image name="Social_default_small" width="40" height="40"/>
         <image name="Social_link" width="40" height="40"/>
+        <image name="headIcon3" width="256" height="256"/>
     </resources>
 </document>

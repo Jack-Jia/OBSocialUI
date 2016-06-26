@@ -22,9 +22,8 @@
                     <nil key="highlightedColor"/>
                     <color key="shadowColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Social_default_small" translatesAutoresizingMaskIntoConstraints="NO" id="EPN-ME-iCS">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="headIcon5" translatesAutoresizingMaskIntoConstraints="NO" id="EPN-ME-iCS">
                     <rect key="frame" x="306" y="70" width="60" height="60"/>
-                    <color key="backgroundColor" red="0.01075721154" green="0.0026358841420000001" blue="0.0084455844750000002" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -34,6 +33,6 @@
     </objects>
     <resources>
         <image name="Social_backGround" width="1115" height="783"/>
-        <image name="Social_default_small" width="40" height="40"/>
+        <image name="headIcon5" width="256" height="256"/>
     </resources>
 </document>

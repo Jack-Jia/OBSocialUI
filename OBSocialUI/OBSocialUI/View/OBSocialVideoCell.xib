@@ -14,14 +14,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="189.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Social_default_small" translatesAutoresizingMaskIntoConstraints="NO" id="3eJ-oU-QsE">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headIcon4" translatesAutoresizingMaskIntoConstraints="NO" id="3eJ-oU-QsE">
                         <rect key="frame" x="10" y="10" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="30" id="99u-Mx-KTE"/>
                             <constraint firstAttribute="height" constant="30" id="VLM-Ed-HgN"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="周杰伦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BD-wC-Id8">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="西门庆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BD-wC-Id8">
                         <rect key="frame" x="45" y="8" width="39" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="Y1b-Un-IZ8"/>
@@ -117,7 +117,7 @@
     <resources>
         <image name="Social_backGround" width="1115" height="783"/>
         <image name="Social_comment" width="15" height="13"/>
-        <image name="Social_default_small" width="40" height="40"/>
+        <image name="headIcon4" width="256" height="256"/>
         <image name="play-samll" width="27" height="27"/>
     </resources>
 </document>
