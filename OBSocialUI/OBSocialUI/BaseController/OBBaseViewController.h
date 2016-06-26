@@ -9,5 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface OBBaseViewController : UIViewController
+<
+UITableViewDelegate,
+UITableViewDataSource
+>
+
+@property (nonatomic, strong) UITableView *baseTableView; //!< 基础TableView
+
+/**
+ *  设置tableView为组模式
+ */
+- (void)isGroupTableView;
 
 @end
