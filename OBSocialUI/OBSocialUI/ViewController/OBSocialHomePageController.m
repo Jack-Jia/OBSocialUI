@@ -16,14 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self ob_initNavigationGoBackButtonImage:[UIImage imageNamed:@"Nav_back"] WithTitle:nil];
-    [self ob_initNavigationRightButtonImage:[UIImage imageNamed:@"more_button"]];
+    [self createUI];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
 
-
+#pragma mark - Private Methods
+- (void)createUI {
+    /// 初始化导航条返回按钮
+    [self ob_initNavigationGoBackButtonImage:[UIImage imageNamed:@"Nav_back"] WithTitle:nil];
+    /// 初始化更多按钮
+    [self ob_initNavigationRightButtonImage:[UIImage imageNamed:@"more_button"]];
+}
 
 @end
