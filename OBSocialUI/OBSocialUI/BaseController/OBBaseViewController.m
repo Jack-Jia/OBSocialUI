@@ -10,6 +10,8 @@
 
 @interface OBBaseViewController ()
 
+@property (nonatomic, assign) UITableViewStyle tableViewStyle;
+
 @end
 
 @implementation OBBaseViewController
@@ -20,48 +22,31 @@
 
 #pragma mark - Public Methods
 /**
- *  初始化导航条的返回按钮
- *
- *  @param image 返回按钮的image
- *  @param title 返回按钮的标题
+ *  设置tableView为组模式
  */
-- (void)ob_initNavigationGoBackButtonImage:(UIImage *)image WithTitle:(NSString *)title {
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(goBackButtonClicked:)];
-    self.navigationItem.leftBarButtonItem = backButton;
-    [self.navigationItem.leftBarButtonItem setTitle:title];
-
-}
-/**
- *  返回按钮的响应事件,如需定制返回事件,重写此方法
- *
- *  @param sender 返回按钮
- */
-- (void)goBackButtonClicked:(UIBarButtonItem *)sender {
-    
-    //子类重写
-    
+- (void)isGroupTableView {
+    self.tableViewStyle = UITableViewStyleGrouped;
 }
 
-/**
- *  初始化导航条的右侧按钮
- *
- *  @param image 返回按钮的image
- *  @param title 返回按钮的标题
- */
-- (void)ob_initNavigationRightButtonImage:(UIImage *)image {
-    UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(rightButtonClicked:)];
-    self.navigationItem.rightBarButtonItem = rightButton;
+#pragma mark - UITableViewDataSource
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
 }
 
-/**
- *  右侧按钮的响应事件,如需定制返回事件,重写此方法
- *
- *  @param sender 返回按钮
- */
-- (void)rightButtonClicked:(UIBarButtonItem *)sender {
-    
-    //子类重写
-    
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 0;
+}
+
+#pragma mark - Getter and Setter
+- (UITableView *)baseTableView {
+    if (!_baseTableView) {
+        _baseTableView = [[UITableView alloc] initWithFrame:self.view.frame style:self.tableViewStyle?:UITableViewStylePlain];
+        _baseTableView.delegate = self;
+        _baseTableView.dataSource = self;
+        _baseTableView.tableFooterView = [[UIView alloc] init];
+    }
+    return _baseTableView;
 }
 
 

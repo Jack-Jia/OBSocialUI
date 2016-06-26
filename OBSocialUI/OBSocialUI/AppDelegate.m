@@ -16,7 +16,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ///设置导航栏背景颜色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithWhite:0.2 alpha:1]];
+    
+    ///设置导航栏按钮颜色
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    ///设置导航栏标题颜色
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    
+    ///取消导航栏自动半透明
+    [[UINavigationBar appearance] setTranslucent:NO];
+    
+    
+    
     return YES;
 }
 
